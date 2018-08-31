@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width:  45%;
+    float:  left;
+    margin-left:  3%;
+}
+.container-ngoai{
+	background-color: yellow;
+    min-height: 100px;
+}
+.container {
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.title {
+    width: 30%;
+    float:  left;
+    background-color:  black;
+}
+
+.img {}
+
+.menu {
+    width: 70%;
+    float:  left;
+}
+
+input {
+    float: right;
+    width: 36%;
+    padding: 5px;
+    margin: 8% 3%;
+    height: 25px;
+    background-image: url('../img/sreach.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 6px;
+}
+ul{
+	list-style-type: none;
+	display: -webkit-box;
+	/* padding: 5% 0%; */
+	font-size: 19px;
+}
+li{
+	width: 95px;
+	text-align:  center;
+	padding-top: 2%;
+}
+li a{
+	text-decoration: none;
+	color: black;
+}
+li img{padding-left:  20%;}
+hr{
+	min-height: 100px;
+}
