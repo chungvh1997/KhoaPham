@@ -1,0 +1,21 @@
+.container{
+    width: 1000px;
+    margin:auto;
+}
+
+#hello2{
+    width: 200px;
+    height: 200px;
+    /* background: url('../images/oto.jpg')  */
+    background-color: blueviolet
+}
+
+.xinchao{
+    background-color: blueviolet
+}
+
+.hello{
+    background-color: aquamarine;
+    width: 200px;
+    float: left
+}

@@ -1,0 +1,48 @@
+body{
+    background-image: url('../images/pexels-photo-255379.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px
+}
+.container{
+    width: 1200px;
+    margin: auto
+}
+.header{
+    height: 100px;
+    background-color: blue;
+    margin-top: 30px;
+    width: 100%;
+}
+.left-1, .right-1, .left-2, .right-2{
+    float: left;
+}
+.left-1{
+    height: 200px;
+    width: 30%;
+    background-color: aqua;
+}
+.right-1{
+    height: 200px;
+    width: 70%;
+    background-color: yellow;
+    float: right;
+}
+
+.left-2{
+    height: 300px;
+    width: 60%;
+    background-color: violet;
+}
+.right-2{
+    height: 300px;
+    width: 40%;
+    background-color:red;
+}
+
+.footer{
+    height: 100px;
+    background-color: black;
+    width: 100%;
+    clear: both;
+}

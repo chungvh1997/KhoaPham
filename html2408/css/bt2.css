@@ -1,0 +1,16 @@
+.content{
+    width: 1272px;
+    margin: auto
+}
+.item{
+    width: calc(100% / 6 - 12px); /* =200px */
+    height: 200px;
+    margin: 5px;
+    float: left;
+    border: 1px #c3c3c3 solid; 
+    border-radius: 5px
+}
+.item img{
+    width: 120px;
+    padding: 40px
+}
