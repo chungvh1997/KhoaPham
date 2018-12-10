@@ -9,6 +9,7 @@
 <body>
     <h1 style="color:red;">Thực Chó</h1>
     <?php echo $MonHoc; ?>
-    {{$id}}
+    
+    {{$iduser}}
 </body>
 </html>
