@@ -5,6 +5,7 @@ use App\Http\Controllers\MyController;
 use Illuminate\Support\Facades\Route;
 
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -35,12 +36,18 @@ Route::resource('photos', 'PhotoController')->names([
 
 
 Route::prefix("Tesst")->group(function(){  
+    // blade templa
+    Route::get('home', "MyController@Trangchu");
+    Route::get('login', "MyController@Login");
+    Route::post('login', "MyController@postLogin");
+    // route form login send
     Route::get("viewform","MyController@XacNhan");
     Route::post("viewform","MyController@postForm");
-    
-    Route::get('upload', "MyController@getUploadfile");
+    // route upload
+    Route::get('upload', "MyController@getUploadfile")->name("getuploadfile");
     Route::post('upload', "MyController@postUploadfile")->name("uploadfile");
-
+    //route session
+    Route::get('getSession',"MyController@testSession");
 
     Route::get('KhoaHoc', function () {
         return "Khoa hoc laravel";

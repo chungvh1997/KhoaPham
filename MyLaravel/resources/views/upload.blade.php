@@ -10,12 +10,12 @@
     @if(Session::has('error'))
         <div>{{Session::get('error')}}</div>
     @endif
-    @if(session('error'))
-        <div>{{session('error')}}</div>
+    @if(session('succes'))
+        <div>{{session('succes')}}</div>
     @endif
 <form action="{{ route('uploadfile')}}" method="post" enctype="multipart/form-data">
         @csrf
-        <input type="file" name="myFile" id="myFile">
+        <input type="file" name="myFile[]" id="myFile" multiple>
         <input type="submit" value="Send">
     </form>
 </body>
