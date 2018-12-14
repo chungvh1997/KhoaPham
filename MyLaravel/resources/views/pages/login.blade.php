@@ -2,7 +2,7 @@
 @section('login')
     <div class="container" >
         <h2>Sign Up</h2>
-        
+
         @if ($errors->any())
             @foreach ($errors->all() as $err )
                 <li>{{$err}}</li>
@@ -13,7 +13,12 @@
             @csrf
             <p>
                     <label for="username">username</label>
-                    <input type="text" name="username" id="username" >
+                    <input type="text" name="fullname" id="username" value="{{old('fullname')}} ">
+                    @if ($errors->has('fullname'))
+                        @foreach ($errors ->get('fullname') as $err)
+                            <li>{{$err}}</li>
+                        @endforeach
+                    @endif
             </p>
             <p>
                     <label for="password">password</label>
@@ -25,11 +30,16 @@
             </p>
             <p>
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email" >
+                    <input type="email" name="email" id="email" value="{{old('email')}}">
+                    @if ($errors->has('email'))
+                        @foreach ($errors ->get('email') as $err)
+                            <li>{{$err}}</li>
+                        @endforeach
+                    @endif
             </p>
             <p>
                     <label for="age">Age</label>
-                    <input type="number" name="age" id="age">
+                    <input type="number" name="age" id="age" value="{{old('age')}}">
             </p>
             <button type="submit">Login</button>
             

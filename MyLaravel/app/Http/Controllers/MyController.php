@@ -18,8 +18,8 @@ class MyController extends Controller
     public function postLogin(Request $req){
         
         $rules = [
-            'username' => 'required|string|min:6|max:25',
-            'password' => 'required|min:6|max:25',
+            'fullname' => 'required|min:6|max:25|regex:/\s/',
+            'password' => 'required|min:6|max:25|not_regex:/\s/',
             'confirm-password' => 'same:password',
             'age' => 'required|numeric',
             'email' => 'required|email'
@@ -27,14 +27,14 @@ class MyController extends Controller
         
         $message = [
             'email.required'=>':attribute không được rỗng',
-            'username.min' => 'username ít nhất :min kí tự'
+            'fullname.min' => 'fullname ít nhất :min kí tự'
             
         ];
         $validator = Validator::make($req->all(),$rules,$message); 
         
 
         if ($validator->fails()) {
-            return redirect()->back()->withErrors($validator)->withInput();
+            return redirect()->back()->withErrors($validator)->withInput($req->all());
         }
         dd($req->all());
         
