@@ -1,0 +1,185 @@
+@media only screen and (max-width: 1440px){
+    .boxSessionOneText {
+        padding: 100px 0px 80px 100px;
+    }
+    .background{
+       
+        background-size: cover;
+     
+    }
+    .background1{
+       
+        background-size: cover;
+    }
+    .boxpagition{
+        padding-top: 15px;
+        height: 132px;
+        width: 132px;
+    }
+    .box-project-border:after, .box-project-border:before {
+        width: 50.01%;
+        height: 28vw;
+    }
+    .box-project-text-all {
+        bottom: 28%;
+    }
+    .boxSession4Text {
+        padding: 150px 20px 30px 100px;
+    }
+    .box-pagi-news {
+        width: 20%;
+        bottom: 50px;
+    }
+    .box-pagi-3d {
+    
+        left: 8%;
+        top: 20px;
+    }
+    .box-pagi-news {
+        width: 20%;
+   
+    }
+    .box-info {
+        width: 42%;
+        left: 35%;
+    }
+
+}
+@media only screen and (max-width: 1366px){
+    .header-logo {
+        left: 60px;
+    }
+    .boxSession3Text {
+        padding: 100px 10px 0px 80px;
+    }
+    .boxSession4Text {
+        padding: 150px 20px 30px 80px;
+    }
+    .boxtext-all {
+        z-index: 11;
+        position: relative;
+        top: 60px;
+    }
+    .box-project-text-all {
+        bottom: 15%;
+    }
+    .box-contact-left img{
+        height: 80vh;
+    }
+    .boxSession4Text {
+        padding: 150px 0px 30px 60px;
+    }
+}
+@media only screen and (min-width: 1100px) {
+
+}
+@media only screen and (max-width: 768px) {
+.box-titleone h1{
+    font-size: 24px;
+}
+    #fullpage{
+        background: #15214b;
+    }
+    .swiper-container1 {
+        display: none;
+    }
+    .fixmenubg{
+        display: none!important;
+    }
+    .boxSessionOneText{
+        padding: 0;
+    }
+    .header-logo{
+        text-align: center;
+        position: relative!important;
+        display: inline-block;
+        width: 100%;
+        left: 0;
+    }
+    .header-logo img{
+        width: 40%;
+    }
+    .boxSessionOne{
+        margin-top: 0;
+    }
+    .boxSessionOneText {
+        margin-left: 0px!important;
+    }
+    .swiper-container1{
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        height: 200px;
+        margin-top: 30px;
+    }
+    .boxSession2Text{
+        margin:35px 15px 0 15px!important;
+    }
+    .swiper-container2{
+        display: none;
+    }
+    .boxSession3Text{
+        padding: 45px 15px 0 15px;
+        margin-left: 0px!important;
+    }
+    .TextContentHome1{
+        font-size: 1.5rem;
+        color: #fff!important;
+    }
+    .TextContentHome2{
+        font-size: 1.6rem;
+        color: #fff!important;
+    }
+    .boxSessionOneText p{
+        color: #fff!important;
+    }
+    .swiper-container3 {
+        display: none;
+    }
+    #section2 .a-btn-viewmore{
+        display: none;
+    }
+    .boxSession4Text {
+        padding: 50px 0px 0px;
+        margin-left: 0px!important;
+    }
+    .box-project-text-all2 ,  .box-project-text-all{
+        display: none;
+    }
+    .box-project img{
+        object-fit: cover;
+        height: 530px!important;
+    }
+    .boxSession4Text .a-btn-viewmore{
+        margin-top: 0.5rem!important;
+        margin-bottom: 1rem!important;
+    }
+    #section4{
+        display: none;
+    }
+    #section5{
+        background: #fff;
+    }
+    .box_contact {
+        padding: 30px;
+    }
+    .box_contact p{
+        padding-right: 0;
+    }
+    .box-pagi-3d, .box-info{
+        display: none;
+    }
+    #info_iframe{
+        width: 100%!important;
+        padding-left: 0px;
+    }
+    section.footer-wp .footer-config {
+        height: auto;
+    }
+    section.footer-wp .footer-config .footer-address p.name-company{
+        width: 100%;
+    }
+    .coppyright a{
+        display: none;
+    }
+}

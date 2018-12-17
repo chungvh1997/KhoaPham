@@ -1,0 +1,58 @@
+body, html {
+
+    font-size: 13px;
+
+}
+.a-busy{
+	background: #c34c00;
+	}
+	.a-banned{
+		background: #f60000;
+	}
+	.a-delete{
+		background: #f60000;
+	}
+	.a-unavailable{
+		background: #f60000;
+	}
+	.m-body .m-content {
+    padding: 11px 11px;
+}
+.m-badge.m-badge--info {
+//width: 64px;
+}
+.m-portlet .m-portlet__body {
+    padding: 1rem 0.5rem;
+}
+.m-portlet .m-portlet__head .m-portlet__head-caption .m-portlet__head-title .m-portlet__head-text {
+    font-size: 1.2rem;
+
+}
+.nav-pills .nav-link:hover{
+    color: #fff;
+    transition: all 0.3s;
+    background-color:#9816f4;
+    webkit-box-shadow: 0 5px 10px 2px rgba(152,22,244,.19)!important;
+    -moz-box-shadow: 0 5px 10px 2px rgba(152,22,244,.19)!important;
+    box-shadow: 0 5px 10px 2px rgba(152,22,244,.19)!important;
+}
+.m-portlet.m-portlet--creative .m-portlet__head .m-portlet__head-caption .m-portlet__head-label.m-portlet__head-label--info {
+background-color: #9816f4;
+    border-color: #9816f4;
+    border-radius: 5px;
+    color: #fff;
+}
+.m-widget24 .m-widget24__item .m-widget24__stats {
+    margin-top: 0.57rem;
+}
+.m--space-10 {
+    margin-bottom: 50px;
+}
+@media (min-width: 577px){
+	.modal-sm {
+    max-width: 450px !important;
+}
+    .modal-sm1 {
+    max-width: 700px !important;
+}  
+}

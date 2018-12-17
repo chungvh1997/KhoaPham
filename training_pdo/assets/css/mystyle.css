@@ -1,0 +1,36 @@
+.btn-status{
+	width: 60px;
+}
+.btn-filter{
+	width: 80px;
+}
+.title{
+	margin-bottom: 20px;
+}
+
+.td-content{
+	vertical-align: middle;
+}
+
+.btn-add{
+	margin-right: 15px;
+}
+
+.table-content{
+	margin-top: 20px
+}
+
+.text-hightlight{
+	color: #0054FF;
+}
+
+.info-pagination{
+	margin-bottom: -10px
+}
+
+.content-pagination{
+	margin-top: -15px;
+}
+.pointer {
+	cursor: pointer;
+}

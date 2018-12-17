@@ -1,0 +1,161 @@
+section.footer-wp{
+	color: white;
+	width: 100%;
+	background-color: #15214b;
+	padding-top: 43px;
+	border-top: #72d642 solid 2px;
+}
+section.footer-wp .footer-config{
+	height: 394px;
+}
+section.footer-wp .footer-address ,section.footer-wp .certification {
+	position: relative;
+}
+section.footer-wp .footer-config .footer-address::after,
+section.footer-wp .footer-config .certification::after
+{
+ content: '';
+  height: 100%; 
+  width: 1px;
+  position: absolute;
+  right: -14px;
+    box-shadow: 0px 0px 6px 0px grey;
+  top: 8px;
+  background-color: #020202; 
+}
+section.footer-wp .footer-config .footer-address .text-address i{
+	margin-right: 19px;
+	font-size: 20px;
+	color: #74bf45;
+}
+section.footer-wp .footer-config .footer-address .text-address{
+	font-size: 13px;
+	margin-bottom: 17px;
+	 font-weight: bold;
+}
+section.footer-wp .footer-config .footer-address img{
+width: 144px;
+height: 80px;
+margin-bottom: 31px;
+}
+section.footer-wp .footer-config .footer-address p.name-company{
+width:336px ;
+height:30px;
+font-size: 12px;
+ border-radius: 25px;
+ border: white solid 1px;
+ padding-left: 7px;
+ line-height: 25px;
+}
+section.footer-wp .footer-config .certification img{
+	width: 176px;
+	height: 243px;
+}
+section.footer-wp .footer-config .certification p{
+	font-size: 14px;
+	font-weight: bold;
+	color:#e20208;
+	font-family: "SVN-GothamBold";
+}
+section.footer-wp .footer-config .cert-id{
+	width: 100%;
+	text-align: center;
+}
+section.footer-wp .footer-config .footer-social .nav-link{
+	width: 100%;
+	padding: 0px;
+	height: 17px;
+	font-family: "SVN-GothamBold";
+}
+section.footer-wp .footer-config .footer-social .nav-link ul li a{
+	color: white;
+}
+section.footer-wp .footer-config .footer-social p{
+font-size: 14px;
+margin-top: 25px;
+color: #e20208;
+}
+section.footer-wp .footer-config .footer-social .nav-link ul{
+margin :0px;
+padding: 0px;
+font-size: 13.07px;
+}
+section.footer-wp .footer-config .footer-social .nav-link li{
+display: inline-block;
+margin-right: 7px;
+font-weight: bold;
+}
+section.footer-wp .footer-config .footer-social .nav-link li:last-child{
+margin-right: 0px;
+}
+section.footer-wp .footer-config .footer-social .nav-link p{
+font-size: 14px;
+}
+section.footer-wp .footer-config .footer-social input.input-footer{
+	border-radius:26px 27px 27px 26px;
+	position: relative;
+	height: 40px;
+	background: transparent;
+  	border-color: #821027;
+ 	 outline: 0;
+ 	 z-index: 1px;
+}
+section.footer-wp .footer-config .footer-social span.button-mail{
+	border-radius: 2rem;
+	position: absolute;
+	right: 0px;
+	height: 40px;
+	font-size: 14px;
+	font-weight: bold;
+	background: #e20208;
+	border: 0px;
+	color: white;
+	z-index: 5px;
+}
+section.footer-wp .footer-config .footer-social .social-media{
+	font-family: "SVN-GothamBold";
+}
+section.footer-wp .footer-config .footer-social .social-media p{
+	color: #6cb146;
+	font-size: 14px;
+}
+section.footer-wp .footer-config .footer-social .social-media p#infoc-footer{
+	font-size: 13px;
+	font-weight: bold;
+	color: white;
+	 margin-top: 19px;
+}
+section.footer-wp .footer-config .footer-social .social-media p#infoc-footer a{
+ color: red;
+}
+section.footer-wp .footer-config .footer-social .social-media img{
+	width: 40px;
+	height: 40px;
+	margin-right: 27px;
+}
+section.footer-wp .footer-config .footer-social .social-media img:not(:last-child) {
+    margin-right: 0px;
+}
+section.footer-wp .footer-config .footer-social .nav-link ul li a{
+	color: white;
+}
+/*css=coppyright*/
+section.footer-wp .coppyright{
+
+	background-color: #e20208;
+	line-height: 42px;
+	 clear: both;
+	 font-family: "SVN-GothamBold";
+}
+section.footer-wp .coppyright p{
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+}
+section.footer-wp .coppyright p a{
+	color: #333333;
+}
+
+
+
+

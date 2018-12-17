@@ -1,0 +1,19 @@
+﻿<?php
+$lang['history_process_success'] ="Thành công";
+$lang['history_process_error'] ="Thất bại";
+$lang['history_created'] ="{{postby}} Đã khởi tạo {{status}} cho mã {{id}} trong {{table}}.";
+$lang['history_update'] ="Đã cập nhật {{status}} cho mã {{id}} trong {{table}}.";
+$lang['history_changepassword'] ="Đã thay đổi mật khẩu {{status}} cho mã {{id}} trong {{table}}.";
+$lang['history_update_logo'] ="Đã cập nhật hình ảnh logo {{status}} cho mã {{id}} trong {{table}}.";
+$lang['history_update_email'] ="Đã cập nhật email {{status}} cho mã {{id}} trong {{table}}.";
+$lang['history_changestatus'] ="Đã cập nhật trạng thái {{status}} của mã {{id}} trong {{table}}.";
+$lang['history_delete'] ="Đã xóa {{status}} cho mã {{id}} trong {{table}}.";
+$lang['history_restore'] ="{{email}} đã khôi phục mã {{id}} thành mã mới {{newid}} trong {{table}}.";
+$lang['history_login_success'] ="{{postby}} đã đăng thành công công vào hệ thống.";
+$lang['history_login_error'] ="{{email}} và {{password}} đã cố đăng nhập vào hệ thống.";
+$lang['history_logout'] ="Đã đăng xuất thành công khỏi hệ thống.";
+$lang['history_resetpassword'] = "{{email}} và mã nhân viên {{code}} đã yêu cầu hệ thống reset mật khẩu {{status}}.";
+$lang['history_report'] ="{{email}} đã xuất {{status}} hóa đơn {{name}} với mã là {{id}} trong {{table}}.";
+$lang['print_out_success'] ="Qúa trình xuất hóa đơn thành công.";
+$lang['eventactable'] ="Bảng tương tác";
+$lang['history_permission'] ="Đã thêm quyền cho {{table}} của mã {{id}} {{status}}.";

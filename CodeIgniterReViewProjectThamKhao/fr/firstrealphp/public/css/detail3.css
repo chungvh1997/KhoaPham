@@ -1,0 +1,58 @@
+section.detail .line-title-detail{
+	width: 100px;
+	height: 5px;
+	background-color:#72d642;
+}
+section.detail small{
+  font-size: 12px;
+}
+section.detail i{
+  margin-right: 10px;
+}
+section.detail h1{
+ 
+  font-size: 30px;
+  font-weight: bold;
+}
+section.detail .link-social-detail i{
+	 color: #72d642;
+	 margin-right: 16px;
+}
+/*//star*/
+.checked {
+  color: orange;
+}
+#text-rating{
+
+	font-size: 14px;
+	color: #949494;
+}
+section.detail .link-social-detail {
+	padding: 0px;
+}
+section.detail .star-footer{
+	border-top: #acacac solid 1px;
+	   
+}
+/*social-wp-page*/
+.social-wp-page {
+	width: 50px;
+	height: 175px;
+	position: fixed;
+	 z-index: 999;
+	 top: 30%;
+  right: 0;
+}
+.social-wp-page i{
+	background-color: #72d642;
+ 	border-radius: 50%;
+	width: 30px;
+    height: 30px;
+    line-height: 30px;
+	text-align: center;
+	font-size: 11px;
+	color: white;
+	margin-bottom: 10px;
+
+}
+

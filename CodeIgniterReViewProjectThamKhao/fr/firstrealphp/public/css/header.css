@@ -1,0 +1,69 @@
+header{
+	height: 600px;
+	background-image: url("../images/img-header.jpg");
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/*//css-top-header;*/
+.top-header-info{
+
+	padding-top: 20px;
+}
+.top-header-info a{
+	color: white;
+	
+}
+.top-header-info #line-top{
+	display: inline-block;
+	width: 1px;
+	height: 15px;
+	background-color:black;
+	margin: 0px 19px;
+}
+.breadcrumb-dot a{
+	color: white;
+	font-size: 12px;
+}
+.breadcrumb-dot .breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+    color: #ffffff;
+}
+nav#breadcrumb {
+    margin: 0 auto;
+}
+
+header .line-header-top{
+	width: 114px;
+	height: 5px;
+	background-color:#72d642;
+}
+ol.breadcrumb{
+	background: transparent!important ;
+
+}
+.info-header-top h1{
+	color: white;
+	text-align: center;
+	font-family: "SVN-GothamLight";
+}
+.info-header-top h2{
+color: white;
+	text-align: center;
+	font-family: "SVN-GothamBold";
+}
+.info-header-top h1{
+	font-size: 28px;
+	text-transform: uppercase;
+
+}
+.info-header-top h2{
+	font-size: 33px;
+}
+/*//end-css-top-header;*/
+.div-top-navbar {
+    height: 200px;
+}
+.div-top-navbar nav a.nav-link{
+	font-size: 13px;
+    color: white;
+}

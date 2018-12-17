@@ -1,0 +1,18 @@
+
+$colors: (
+    primary : #005Dff,
+    primary-light: lighten(#005Dff, 40%),
+    primary-dark: lighten(#333,40%),
+    accent: #fff6bb,
+);
+$padding: 15px;
+$borders:15px;
+@function color($color-name){
+    @return map-get($colors, $color-name )
+};
+$desktop: 840px;
+@mixin destop {
+    @media (min-width : #{$desktop}){
+        @content;
+    }
+}
