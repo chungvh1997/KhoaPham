@@ -15,6 +15,7 @@ class AddVotesToProductsTable extends Migration
     {
         Schema::table('products', function (Blueprint $table) {
             //
+            
             $table->integer('votes')->default(0);
             $table->string('name',200)->change();
             $table->renameColumn('detail','description');
