@@ -15,4 +15,7 @@ class Products extends Model
     function categories(){
         return $this->belongsTo('App\Categories','id_type','id');
     }
+    function bills(){
+        return $this->belongsToMany('App\Bill','bill_detail','id_product','id_bill');
+    }
 }

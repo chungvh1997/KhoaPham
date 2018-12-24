@@ -11,16 +11,41 @@ class MyController extends Controller
 {
     //
     function modelExample(){
-        // $p = Products::with('pageUrl')->where('id','<','10')->get();
-        // foreach($p as $item){
-        //     echo $item->name."--".$item->pageUrl->url."<br>";
-        // }
-        // dd($p);
+          //c1 C:1 select lien ket 3 bang n-n
+          $data = \App\Bill::with('product')->limit(3)->get();
+          foreach($data as $b){
+              echo "<h5>BillID: ".$b->id."</h5>";
+              foreach($b->product as $p){
+                  echo "<li>".$p->name."</li>";
+              }
+          }
+          echo "<hr>";
+          //c2 C:2 select lien ket 3 bang n-n
+          $bill = \App\Bill::with('billDetail.product')->limit(3)->get();
+          foreach($bill as $b){
+              echo "<h5>BillID:".$b->id."</h5>";
+              foreach($b->billDetail as $detail){
+                  echo '<li>'.$detail->product->name.'</li>';
+              }            
+          }
+          // dd($bill);
+       
+        // $data = Bill::with('product')->limit(3)->get();
+        // dd($data);
+        /* select 1-n
+        $p = Products::with('pageUrl')->where('id','<','10')->get();
+        foreach($p as $item){
+            echo $item->name."--".$item->pageUrl->url."<br>";
+        }
+        dd($p);
+        */
+        /* select 
         $p = Products::with('categories')->whereIn('id',[2,5])->get();
         foreach($p as $item){
             echo $item->name."--".$item->name."<br>";
         }
         dd($p);
+        */
         /* insert
         $bill = new Bill;
         $bill->id_customer = 34;
