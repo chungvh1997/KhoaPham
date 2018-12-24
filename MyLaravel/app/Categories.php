@@ -11,7 +11,7 @@ class Categories extends Model
     function product(){
         return $this->hasMany('App\Products','id_type','id');
     }
-    function cateUrl(){
-        
+    function pageUrlCate(){
+        return $this->belongsTo('App\PageUrl','id_url','id');
     }
 }
