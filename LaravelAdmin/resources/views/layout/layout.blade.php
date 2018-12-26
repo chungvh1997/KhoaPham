@@ -8,7 +8,7 @@
     <meta name="keyword" content="FlatLab, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
     <link rel="shortcut icon" href="admin-master/img/favicon.html">
 
-    <title>FlatLab - Flat & Responsive Bootstrap Admin Template</title>
+    <title>@yield('title')</title>
 
     <!-- Bootstrap core CSS -->
     <link href="admin-master/css/bootstrap.min.css" rel="stylesheet">
@@ -263,7 +263,7 @@
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <img alt="" src="admin-master/img/avatar1_small.jpg">
-                            <span class="username">Jhon Doue</span>
+                            <span class="username">{{Auth::user()->fullname}}</span>
                             <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu extended logout">
@@ -365,7 +365,7 @@
       @yield('content')
       <!--main content end-->
       <!--footer start-->
-      <footer class="site-footer">
+      <footer class="site-footer" style="width:100%; position:fixed;bottom:0px">
           <div class="text-center">
               2017 &copy; Hương Hương.
               <a href="#" class="go-top">
@@ -383,7 +383,7 @@
     <script src="admin-master/js/jquery.scrollTo.min.js"></script>
     <script src="admin-master/js/jquery.nicescroll.js" type="text/javascript"></script>
     <script src="admin-master/js/jquery.sparkline.js" type="text/javascript"></script>
-    <script src="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js"></script>
+    <script src="admin-master/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js"></script>
     <script src="admin-master/js/owl.carousel.js" ></script>
     <script src="admin-master/js/jquery.customSelect.min.js" ></script>
     <script src="admin-master/js/respond.min.js" ></script>

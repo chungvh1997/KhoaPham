@@ -16,3 +16,5 @@
     </section>
 </section>
 @endsection
+@section('title','Home')
+    
