@@ -271,7 +271,7 @@
                             <li><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
                             <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
                             <li><a href="#"><i class="fa fa-bell-o"></i> Notification</a></li>
-                            <li><a href="login.html"><i class="fa fa-key"></i> Log Out</a></li>
+                            <li><a href="{{{ route('login') }}}"><i class="fa fa-key"></i>Log out {{Auth::logout()}}</a></li>
                         </ul>
                     </li>
                     <!-- user login dropdown end -->

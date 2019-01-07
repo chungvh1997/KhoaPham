@@ -12,12 +12,9 @@ class MyController extends Controller
 {
     //
     function index(){
-        if(Auth::check()){
+        
             return view('pages.index');
-        }
-        else{
-            return redirect()->route('login')->with('error','You must login!');
-        }
+       
         
     }
     function getLogin(){
@@ -27,9 +24,10 @@ class MyController extends Controller
         //validation
         $data = [
             'email'=>$req->email,
-            'password'=>$req->password
+            'password'=>$req->password,
+            
         ];
-        if(Auth::attempt($data)){ // boolean
+        if(Auth::attempt($data,$req->has('remember'))){ // boolean
             // dd(Auth::user()); // User::get();
             return redirect()->route('home');
             // return redirect('/');

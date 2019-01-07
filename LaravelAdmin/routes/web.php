@@ -14,9 +14,12 @@
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/', 'MyController@index')->name('home');
+
 Route::get('login', 'MyController@getLogin')->name('login');
 Route::post('login', 'MyController@postLogin')->name('login');
 Route::get('register', 'MyController@getRegister')->name('register');
 Route::post('register', 'MyController@postRegister')->name('register');
+Route::group(['middleware' => 'checkAdminLogin'], function () {
+    Route::get('/', 'MyController@index')->name('home');
+});
 
